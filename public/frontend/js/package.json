@@ -1,0 +1,10 @@
+{
+  "name": "figmaexport-wordpress_-_little__little_-_landing_page_copy-little__little-little__little_logo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
