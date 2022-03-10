@@ -16,7 +16,8 @@ class Paymentcontroller extends Controller
         $id = session::get('order_id');
         // dd($id);
         $orderTicket = orderTicket::all()->where('order_id',$id);
-     
+        
         return view('pages.payment')->with(compact('orderTicket'));
+  
     }
 }

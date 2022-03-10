@@ -14,6 +14,8 @@ class joinPackageController extends Controller
        ->join('tbl_packageticket','tbl_order_ticket.package_id',"=" ,'tbl_packageticket.package_id')
        ->where('tbl_order_ticket.order_id',$id)
        ->get(['tbl_packageticket.package_price',
+              'tbl_packageticket.package_code',
+              'tbl_packageticket.package_name',
               'tbl_order_ticket.package_id',
               'tbl_order_ticket.quantity_ticket',
               'tbl_order_ticket.date_use',
@@ -22,6 +24,11 @@ class joinPackageController extends Controller
               'tbl_order_ticket.email',
               'tbl_order_ticket.order_id']);
 
-       return view('pages.payment')->with(compact('result'));
+              if(isset($id) && $result == true){
+                return view('pages.payment')->with(compact('result'));
+                
+              }else{
+                return redirect('/');
+              }   
     }
 }
