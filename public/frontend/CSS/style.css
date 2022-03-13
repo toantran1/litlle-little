@@ -1199,3 +1199,183 @@ filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
   bottom: 82.1%;
   width: 467px;
 }
+
+.header-container .wrapper-payment-success img{
+  position: absolute;
+  width: 950px;
+  height: 100px;
+  left: 147px;
+  top: 49px;
+}
+
+.header-container .group_payment_success img{
+  position: absolute;
+  top: 180px;
+  left: 123px;
+}
+
+.header-container .alvin img{
+  position: absolute;
+  height: 377px;
+  left: -56px;
+  top: 240px;
+}
+.header-container img.pre_btn{
+  position: absolute;
+  left: 12.11%;
+  right: 94.41%;
+  top: 48.72%;
+  bottom: 45.72%;
+  width: 45px;
+filter: drop-shadow(0px 3px 2px #DE9959);
+}
+
+.header-container img.next_btn{
+  position: absolute;
+  left: 89.34%;
+  right: 2.17%;
+  top: 48.72%;
+  bottom: 45.72%;
+  width: 45px;
+  filter: drop-shadow(0px 3px 2px #DE9959);
+}
+.header-container .group_payment_success .border-ticket{
+  position: absolute;
+  left: 18%;
+  right: 0%;
+  top: 27%;
+  bottom: 4.58%;
+  height: 340px;
+  width: 182px;
+background: #FFFFFF;
+border-radius: 16px;
+}
+.header-container .group_payment_success .border-ticket img.ticket-img{
+  position: absolute;
+  top: 27px;
+  width: 100px;
+  left: 42px;
+}
+.header-container .group_payment_success .border-ticket .ticket-body{
+  position: absolute;
+  text-align: center;
+  top: 148px;
+  left:27px;
+  align-items: center;
+}
+.header-container .group_payment_success .border-ticket .ticket-body h4.card-title{
+  font-weight: bold;
+  margin-bottom: 17px;
+  font-family: 'Montserrat';
+  text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 39px;
+}
+.header-container .group_payment_success .border-ticket .ticket-body h5.card-title{
+  font-weight: bold;
+  margin-bottom: 17px;
+  font-family: 'Montserrat';
+  text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 39px;
+color: #FFC226;
+margin-top:-22px;
+}
+.header-container .group_payment_success .border-ticket .ticket-body h6.card-title{
+  font-weight: bold;
+  margin-bottom: 17px;
+  font-family: 'Montserrat';
+  text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 39px;
+margin-top: -25px;
+}
+.header-container .group_payment_success .border-ticket .ticket-body p.card-text{
+font-family: 'Montserrat';
+text-align: center;
+font-style: normal;
+font-size: 11px;
+margin-top: -15px;
+}
+.header-container .group_payment_success .border-ticket img.green-tick{
+  margin-left: -50px;
+  margin-top: 110px;
+  width: 35px;
+}
+
+.header-container .group_payment_success p.text-date{
+  position: absolute;
+  font-family: 'Montserrat';
+text-align: center;
+font-style: normal;
+font-size: 14px;
+top: 570px;
+left: 219px;
+}
+.header-container .group_payment_success p.page{
+  position: absolute;
+  font-family: 'Montserrat';
+text-align: center;
+font-style: normal;
+font-size: 14px;
+top: 570px;
+left: 975px;
+opacity: 0.5;
+}
+
+.header-container .group_payment_success .btn-download{
+  position: absolute;
+  width: 140px;
+  height: 37px;
+  left: 482px;
+  top: 634px;
+  cursor: pointer;
+  background: #FF000A;
+  filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+  border: none;
+  border-radius: 15px;
+  font-family: Lobster;
+  font-style: normal;
+  /* font-weight: 900; */
+  font-size: 19px;
+  /* line-height: 41px; */
+  -webkit-box-shadow: 0px 5px 0px 1px rgb(189 0 11);
+  -moz-box-shadow: 0px 5px 0px 1px rgba(189,0,11,1);
+  box-shadow: 0px 5px 0px 1px rgb(189 0 11);
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+.header-container .group_payment_success p.cnt_value{
+  text-align: center;
+  margin-top: 7px;
+}
+
+.header-container .group_payment_success .btn-sendmail{
+  position: absolute;
+  width: 140px;
+  height: 37px;
+  left: 645px;
+  top: 634px;
+  cursor: pointer;
+  background: #FF000A;
+  filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+  border: none;
+  border-radius: 15px;
+  font-family: Lobster;
+  font-style: normal;
+  /* font-weight: 900; */
+  font-size: 19px;
+  /* line-height: 41px; */
+  -webkit-box-shadow: 0px 5px 0px 1px rgb(189 0 11);
+  -moz-box-shadow: 0px 5px 0px 1px rgba(189,0,11,1);
+  box-shadow: 0px 5px 0px 1px rgb(189 0 11);
+  color: #FFFFFF;
+ 
+}

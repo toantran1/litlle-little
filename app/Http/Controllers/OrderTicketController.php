@@ -34,20 +34,24 @@ class OrderTicketController extends Controller
 
         $orderTicket->save();
         Session::put('order_id',$orderTicket->order_id);
-
-        // $get_order_id= Session::get('order_id');
+        session::put('email_cus',$orderTicket->email);
+       
+    //  $get_order_id= Session::get('order_id');
      
-        // if(isset($get_order_id)){
+    //     if(isset($get_order_id)){
             return redirect::to('/payment');    
         // }else{
         //     return redirect('/');
-        // }         
+        // }   
+            
+        
         
     }
     public function delete_order(){
         $id = session::get('order_id');
         DB::table('tbl_order_ticket')->where('order_id',$id)->delete();
     }
+
     public function insert_order_detail(){
         $order_id= session::get('order_id');
        
@@ -80,7 +84,15 @@ class OrderTicketController extends Controller
 
         $orderDetail->save();
 
+        Session::put('username', $orderDetail->username_order);
+        Session::put('qty_ticket', $orderDetail->quantity_ticket);
+        Session::put('Code_ticket', $orderDetail->package_code);
+        Session::put('package_name_ticket',  $orderDetail->package_name);
+        Session::put('date', $orderDetail->date_use);
+        Session::put('price', $orderDetail->total_price);
+
+
         $this->delete_order();
-        return redirect::to('/trang-chu');
+        return redirect::to('/payment-success');
     }
 }

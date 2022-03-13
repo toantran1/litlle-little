@@ -26,6 +26,14 @@ Route::post('/order-ticket','OrderTicketController@insert_orderTicket');
 // Route::get('/payment-insert','PaymentController@get_info_payment');
 Route::get('/payment',[joinPackageController::class, 'index']);
 Route::post('insert_orderdetail',[OrderTicketController::class,'insert_order_detail']);
+Route::get('/payment-success','PaymentController@payment_success');
 
 /*Contact */
 Route::get('/contact','ContactController@contact_page');
+
+//send-mail
+Route::get('/send-mail','MailController@mail_info');
+Route::get('/send-mail','MailController@send_mail');
+
+//download ticket
+Route::get('/download-ticket','HomeController@download_ticket');

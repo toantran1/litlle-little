@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 class joinPackageController extends Controller
 {
-    function index(){
+    public function index(){
       $id = session::get('order_id');
        $result = DB::table('tbl_order_ticket')
        ->join('tbl_packageticket','tbl_order_ticket.package_id',"=" ,'tbl_packageticket.package_id')
@@ -28,7 +28,7 @@ class joinPackageController extends Controller
                 return view('pages.payment')->with(compact('result'));
                 
               }else{
-                return redirect('/');
+                return redirect('/trang-chu');
               }   
     }
 }
