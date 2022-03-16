@@ -57,14 +57,14 @@
               <img src="images/little---little-logo--ngang--1@2x.png" width="180px" />
             </div>
             <ul class="nav-items">
-              <li >
-                <a  href="{{URL::to('/')}}">Trang chủ</a>
+            <li>
+                <a  href="{{URL::to('trang-chu')}}">Trang chủ</a>
               </li>
               <li>
-                <a href="#">Sự kiện</a>
+                <a href="{{URL::to('event')}}">Sự kiện</a>
               </li>
               <li class="main-home">
-                <a href="{{URL::to('/contact')}}">Liên Hệ</a>
+                <a href="{{URL::to('contact')}}">Liên Hệ</a>
               </li>
      
             </ul>

@@ -37,3 +37,10 @@ Route::get('/send-mail','MailController@send_mail');
 
 //download ticket
 Route::get('/download-ticket','HomeController@download_ticket');
+
+//contact
+Route::post('send-recommend','ContactController@send_recommend');
+
+//event
+Route::get('/event','EventController@event_dashboard');
+Route::get('/event-detail','EventController@event_detail');

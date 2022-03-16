@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Session; ?>
 </head>
 
 <body>
- 
+
   <div class="nav-container">
     <div class="wrapper">
       <nav>
@@ -28,13 +28,13 @@ use Illuminate\Support\Facades\Session; ?>
         </div>
         <ul class="nav-items">
           <li>
-            <a href="{{URL::to('/')}}">Trang chủ</a>
+            <a href="{{URL::to('trang-chu')}}">Trang chủ</a>
+          </li>
+          <li >
+            <a href="{{URL::to('event')}}">Sự kiện</a>
           </li>
           <li>
-            <a href="#">Sự kiện</a>
-          </li>
-          <li>
-            <a href="contact.html">Liên Hệ</a>
+            <a href="{{URL::to('contact')}}">Liên Hệ</a>
           </li>
 
         </ul>
@@ -76,7 +76,7 @@ use Illuminate\Support\Facades\Session; ?>
     </div>
 
     <div class="group_main-2-payment">
-    @yield('content_payment')
+      @yield('content_payment')
     </div>
 
     <div class="vector-info">

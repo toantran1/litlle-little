@@ -17,7 +17,7 @@
             <img class="btn-date" src="images/btn-datetime.svg"/>
           
           <input class="quantity-ticket" type="number" min="0" name="quantity_ticket" placeholder="Số lượng vé" required/>
-          <input class="date-book" type="datetime" name="date_book" placeholder="Ngày đặt vé" required/>
+          <input class="date-book" type="date" name="date_book" placeholder="Ngày đặt vé" required/>
           <input class="name" type="text" name="username_order" placeholder="Họ và Tên" required/>
           <input class="phone" type="number" min="0" name="phone" placeholder="Số điện thoại" required/>
           <input class="mail" type="email" name="email" placeholder="Địa chỉ email" required/>
